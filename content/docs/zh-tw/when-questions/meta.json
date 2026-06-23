@@ -1,0 +1,29 @@
+{
+  "title": "當你提問時",
+  "pages": [
+    "index",
+    "carefully-select-forum",
+    "stack-overflow",
+    "website-and-irc",
+    "use-project-email-list",
+    "use-meaningful-headlines",
+    "make-questions-easily",
+    "use-correctly-sentence",
+    "use-easy-to-read-file-format",
+    "precisely-describe-problem",
+    "not-more-words-but-essence",
+    "not-say-find-bug-easily",
+    "humble-not-substitute-homewoek",
+    "describe-symptoms-not-guesses",
+    "list-problems-by-time",
+    "describe-goal-not-process",
+    "donnot-ask-for-private-email",
+    "clearly-express-your-question",
+    "when-ask-code",
+    "donnot-ask-homework",
+    "remove-questional-sentence",
+    "never-write-urgent",
+    "courtesy-costs-nothing"
+  ],
+  "defaultOpen": true
+}

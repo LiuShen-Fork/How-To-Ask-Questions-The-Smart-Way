@@ -1,4 +1,4 @@
-name: 部署到 static 分支
+name: 部署到 page 分支
 
 on:
   push:
@@ -7,8 +7,13 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: read
+
 env:
   TZ: Asia/Shanghai
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: false
 
 jobs:
   build:
@@ -16,37 +21,55 @@ jobs:
 
     steps:
       - name: 检出源码
-        uses: actions/checkout@main
+        uses: actions/checkout@v5
         with:
           ref: main
-          
-      - name: 缓存项目 npm 包
-        id: cache-node-modules
-        uses: actions/cache@v4
+
+      - name: 设置 pnpm
+        uses: pnpm/action-setup@v5
         with:
-          path: node_modules
-          key: ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-${{ hashFiles('package-lock.json') }}-${{ hashFiles('package.json') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-
+          version: 10
+          run_install: false
 
       - name: 设置 Node.js 环境
-        uses: actions/setup-node@main
+        uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
+          cache: pnpm
+
+      - name: 缓存项目依赖
+        id: cache-node-modules
+        uses: actions/cache@v5
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-nodeModules-${{ hashFiles('pnpm-lock.yaml') }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-nodeModules-
 
       - name: 安装依赖
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: npm i --save
+        run: pnpm install --frozen-lockfile
 
-      - name: 构建 Astro 站点
-        run: npm run build
+      - name: 内容检查
+        run: pnpm content:check
 
-      - name: 部署到 static 分支
+      - name: 类型检查
+        run: pnpm types:check
+
+      - name: 代码检查
+        run: pnpm lint
+
+      - name: 构建站点
+        run: pnpm build
+
+      - name: 部署到 page 分支
         run: |
-          cd ./dist
+          cd out
           git init
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          git checkout -b page
+          git config user.name 'GitHub Action'
+          git config user.email 'action@github.com'
           git add .
           git commit -m "🤓$(date +"%Z %Y-%m-%d %A %H:%M:%S")"
-          git push --force --quiet "https://willow-god:${{ secrets.GITHUB_TOKEN }}@github.com/willow-god/How-To-Ask-Questions-The-Smart-Way.git" master:refs/heads/page
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push --force --quiet origin page
