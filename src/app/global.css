@@ -16,7 +16,47 @@ html {
 }
 
 body {
+  position: relative;
+  min-height: 100vh;
   font-family: inherit;
+  background: var(--color-fd-background);
+}
+
+body::before,
+body::after {
+  position: fixed;
+  pointer-events: none;
+  content: '';
+}
+
+body::before {
+  right: -9rem;
+  bottom: -9rem;
+  z-index: 0;
+  width: min(44rem, 92vw);
+  aspect-ratio: 1;
+  background-image: url('/favicon.ico');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.14;
+  filter: saturate(0.75);
+}
+
+body::after {
+  right: -10rem;
+  bottom: -10rem;
+  z-index: 1;
+  width: min(48rem, 100vw);
+  aspect-ratio: 1;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-fd-background) 38%, transparent);
+  backdrop-filter: blur(5px);
+}
+
+body > * {
+  position: relative;
+  z-index: 2;
 }
 
 button,
@@ -38,6 +78,11 @@ samp,
 
 .prose :where(p, li) {
   line-height: 1.85;
+}
+
+.prose :where(h2) {
+  border-bottom: 1px solid color-mix(in srgb, var(--color-fd-border) 76%, transparent);
+  padding-bottom: 0.35em;
 }
 
 .prose :where(a) {
@@ -66,8 +111,29 @@ samp,
   content: none;
 }
 
+.prose :where(blockquote) {
+  border-left-color: var(--color-fd-primary);
+  background: color-mix(in srgb, var(--color-fd-muted) 54%, transparent);
+  border-radius: 0.45rem;
+  padding: 0.75rem 1rem;
+}
+
+.prose :where(pre) {
+  border: 1px solid color-mix(in srgb, var(--color-fd-border) 84%, transparent);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, white 5%, transparent);
+}
+
 .prose :where(h2, h3) {
   scroll-margin-top: 5rem;
+}
+
+.prose :where(.not-prose) {
+  text-wrap: initial;
+}
+
+.fd-card,
+[class*='bg-fd-card'] {
+  border-color: color-mix(in srgb, var(--color-fd-border) 86%, transparent);
 }
 
 html > body[data-scroll-locked] {

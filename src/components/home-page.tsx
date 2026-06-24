@@ -105,7 +105,7 @@ export function HomePage({ locale }: { locale: Locale }) {
           <p className="mt-6 text-sm text-fd-muted-foreground">{content.credit}</p>
         </div>
 
-        <div className="grid gap-2 rounded-lg border bg-fd-card/70 p-3 shadow-sm">
+        <div className="grid gap-2 rounded-lg border bg-fd-card/90 p-2 shadow-md">
           {content.cards.map(([title, description], index) => {
             const Icon = icons[index];
             return <Feature key={title} icon={<Icon className="size-5" />} title={title} description={description} />;
@@ -124,8 +124,10 @@ export function HomePage({ locale }: { locale: Locale }) {
 
 function Feature({ icon, title, description }: { icon: ReactNode; title: string; description: string }) {
   return (
-    <div className="grid grid-cols-[auto_1fr] gap-3 rounded-md p-3">
-      <div className="mt-1 text-fd-muted-foreground">{icon}</div>
+    <div className="grid grid-cols-[auto_1fr] gap-3 rounded-md border border-transparent p-4 transition-colors hover:border-fd-border hover:bg-fd-accent/55">
+      <div className="flex size-9 items-center justify-center rounded-md border bg-fd-background text-fd-primary shadow-sm">
+        {icon}
+      </div>
       <div>
         <h2 className="text-base font-medium">{title}</h2>
         <p className="mt-1 text-sm leading-6 text-fd-muted-foreground">{description}</p>
@@ -138,7 +140,7 @@ function Chapter({ href, title }: { href: string; title: string }) {
   return (
     <Link
       href={href}
-      className="group flex items-center justify-between rounded-md border bg-fd-card px-4 py-3 text-sm font-medium transition-colors hover:bg-fd-accent"
+      className="group flex min-h-16 items-center justify-between rounded-md border bg-fd-card px-4 py-3 text-sm font-medium shadow-sm transition-colors hover:border-fd-primary/40 hover:bg-fd-accent"
     >
       {title}
       <ArrowRight className="size-4 text-fd-muted-foreground transition-transform group-hover:translate-x-0.5" />
