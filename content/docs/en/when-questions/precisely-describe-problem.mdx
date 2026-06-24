@@ -1,39 +1,38 @@
 ---
-title: "Be precise and informative about your problem"
+title: Precise description of the problem
+hide_breadcrumbs: true
 ---
 
--
-Describe the symptoms of your problem or bug carefully and clearly.
+Describing the problem accurately is a prerequisite for enabling someone to proceed with the diagnosis. You don't need to write a thesis all at once, but you must provide enough facts so that the respondent doesn't have to repeatedly press for the most basic information first.
 
--
-Describe the environment in which it occurs (machine, OS, application,
-whatever). Provide your vendor's distribution and release level
-(e.g.: "Fedora Core 7", "Slackware 9.1", etc.).
+## Information to be written clearly
 
--
-Describe the research you did to try and understand the problem
-before you asked the question.
+* Carefully and clearly describe the symptoms of your problem or bug.
+* Describe the environment in which the problem occurred (machine configuration, operating system, applications, and related information), providing the distributor's release and version number (e.g., `Fedora Core 4`, `Slackware 9.1`, etc.).
+* Describe how you researched and understood the question before asking it.
+* Describe the diagnostic steps taken to identify the problem before asking the question.
+* Describe what recent hardware or software changes have been made that may be relevant.
+* As far as possible, provide a methodology that can `reproduce a controlled environment for this problem'.
 
--
-Describe the diagnostic steps you took to try and pin down the problem
-yourself before you asked the question.
+## Pre-answer possible follow-up questions
 
--
-Describe any possibly relevant recent changes in your computer or
-software configuration.
+Try to speculate on how a hacker might ask you back, and preemptively answer questions that hackers might ask before you ask them.
 
--
-If at all possible, provide a way to *reproduce the
-problem in a controlled environment*.
+You can put yourself in the position of the respondent and think about it:
 
-Do the best you can to anticipate the questions a hacker will
-ask, and answer them in advance in your request for help.
+- Do I know which version, which machine, which configuration the problem occurs in?
+- Do I know if it recurs steadily, or occasionally?
+- Do I know what the questioner has ruled out?
+- Can I reproduce the same problem as described?
 
-Giving hackers the ability to reproduce the problem in a
-controlled environment is especially important if you are reporting
-something you think is a bug in code. When you do this, your odds of
-getting a useful answer and the speed with which you are likely to get
-that answer both improve tremendously.
+If the answer is no, move on to additional information.
 
-Simon Tatham has written an excellent essay entitled [How to Report Bugs Effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs.html). I strongly recommend that
-you read it.
+## Reproducible environments are particularly important
+
+Of the above points, it's especially important to give hackers an environment where they can reproduce your problem when you're reporting what you think might be in the code. When you do this, your chances of getting an effective answer and speed are greatly improved.
+
+"Reproducible" does not necessarily mean a complete replication of your production environment. A minimal example, a piece of configuration that triggers an error, a set of input data, or an explicit command may be enough for someone to observe the same phenomenon.
+
+## Extended Reading
+
+[Simon Tatham](http://www.chiark.greenend.org.uk/~sgtatham/) has written an excellent article called "[How to report bugs effectively](http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn .html)" excellent article. Highly recommend you read it as well.

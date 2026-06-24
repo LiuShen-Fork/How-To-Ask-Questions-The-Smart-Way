@@ -1,126 +1,121 @@
 ---
-title: "Questions Not To Ask"
+title: Some questions you shouldn't ask.
+hide_breadcrumbs: true
 ---
 
-Here are some classic stupid questions, and what hackers are thinking
-when they don't answer them.
+Here are a few classic bad questions and what might be going through a hacker's mind when they are not answered. What they all have in common is not that the question was "too easy", but that the questioner failed to demonstrate the necessary preparation, boundaries, and judgment.
 
-Q: Where can I find program or resource X?Q: How can I use X to do Y?Q: How can I configure my shell prompt?Q: Can I convert an AcmeCorp document into a TeX file using
-the Bass-o-matic file converter?Q: My &#123;program, configuration, SQL statement&#125; doesn't workQ: I'm having problems with my Windows machine. Can you help?Q: My program doesn't work. I think system facility X is broken.Q: I'm having problems installing Linux or X. Can you help?Q: How can I crack root/steal channel-ops privileges/read someone's
-e-mail?
+Look at the table of contents first, and then look at the reasoning behind each example:
 
-**Q:**
+Question: [Where can I find X program or X resource?] (#q1)
 
-Where can I find program or resource X?
+Question: [How do I do Y with X?] (#q2)
 
-**A:**
+QUESTION: [How do I set up my shell prompt?] (#q3)
 
-The same place I'd find it, fool — at the other end of a
-web search. Ghod, doesn't everybody know how to use
-[Google](http://www.google.com/) yet?
+QUESTION: [Can I use the Bass-o-matic file conversion tool to convert AcmeCorp files to TeX format?] (#q4)
 
-**Q:**
+Question: [My program/setting/SQL statement is not working] (#q5)
 
-How can I use X to do Y?
+QUESTION: [I'm having trouble with my Windows computer, can you help me?] (#q6)
 
-**A:**
+Question: [My program won't move, I think there's something wrong with System Tools X](#q7)
 
-If what you want is to do Y, you should ask that question
-without pre-supposing the use of a method that may not be appropriate.
-Questions of this form often indicate a person who is not merely
-ignorant about X, but confused about what problem Y they are solving
-and too fixated on the details of their particular situation. It is
-generally best to ignore such people until they define their problem
-better.
+QUESTION: [I'm having trouble installing Linux (or X), can you help me?] (#q8)
 
-**Q:**
+QUESTION: [How can I crack a root account/steal OP privileges/read someone else's email?] (#q9)
 
-How can I configure my shell prompt?
+---
 
-**A:**
+## Do Not Hand Your Search Task to Others
 
-If you're smart enough to ask this question, you're smart enough
-to [RTFM](/en/docs/how-to-read-answer/rtfm-and-stfw) and find out yourself.
+<a id="q1"></a>
+> Question: Where can I find X program or X resource?
 
-**Q:**
+Answer: it's right where I found it, idiot -- the search engine end. Geez! Doesn't anyone else know how to use [Google](https://www.google.com)?
 
-Can I convert an AcmeCorp document into a TeX file using
-the Bass-o-matic file converter?
+The problem with this type of question is that it doesn't show any search or filtering process. A better way to ask the question would show what keywords you looked up, what candidate results you found, and why they didn't apply.
 
-**A:**
+## Mistaking means for ends
 
-Try it and see. If you did that, you'd (a) learn the answer,
-and (b) stop wasting my time.
+<a id="q2"></a>
+> Question: How do I do Y with X?
 
-**Q:**
+Answer: If you are trying to solve Y, don't ask the question in a way that may not be appropriate. This kind of question indicates that the person asking the question is not only completely ignorant of X, but also confused about the problem Y is trying to solve, and has been confined by the situation. It's best to ignore such people until they have clarified the problem.
 
-My &#123;program, configuration, SQL statement&#125; doesn't work
+If it's Y that you really want to address, describe Y's goals, constraints, and context directly. Maybe X isn't the right tool at all, and qualifying the means too soon will just force the respondent to help you in the wrong direction.
 
-**A:**
+## Reluctance to read basic documentation
 
-This is not a question, and I'm not interested in playing
-Twenty Questions to pry your actual question out of you — I have
-better things to do. On seeing something like this, my reaction is
-normally of one of the following:
+<a id="q3"></a>
+> Question: How do I set my shell prompt?
 
-- do you have anything else to add to that?
+Answer: if you're smart enough to mention it, you should also be smart enough to [RTFM](#RTFM) and find out for yourself.
 
-- oh, that's too bad, I hope you get it fixed.
+These types of questions can usually be answered directly from a manual, FAQ, or starter document. If you've already read the material in question, point to the specific passage you're stuck on, rather than handing the whole thing over to someone else to rehash.
 
-- and this has exactly what to do with me?
+## Unwilling to do minimal experimentation on their own
 
-**Q:**
+<a id="q4"></a>
+> Question: Can I use the Bass-o-matic file conversion tool to convert AcmeCorp files to TeX format?
 
-I'm having problems with my Windows machine. Can you help?
+Answer: try it and you'll know. If you try it, you'll know the answer and won't have to waste my time.
 
-**A:**
+If the cost of the experiment is low, try it yourself first. Ask questions around "why is this experiment not working as expected" rather than asking someone else to do the confirming for you that you should be doing.
 
-Yes. Throw out that Microsoft trash and install an open-source
-operating system like Linux or BSD.
+## No description of the specific problem
 
-Note: you *can* ask questions related to
-Windows machines if they are about a program that does have an
-official Windows build, or interacts with Windows machines
-(i.e., Samba). Just don't be surprised by the reply that the problem is
-with Windows and not the program, because Windows is so broken in
-general that this is very often the case.
+<a id="q5"></a>
+> Problem: My "Program/Setup/SQL statement" is not working!
 
-**Q:**
+Answer: It's not really a question, I'm not interested in asking you twenty questions to find out what your real problem is -- I've got more interesting things to do. When I see these kinds of questions, I usually have one of three reactions.
 
-My program doesn't work. I think system facility X is broken.
+  * Is there anything else you'd like to add?
+  * That sucks. I hope you get it fixed.
+  * What do I care?
 
-**A:**
+"Not working" is not diagnosable information. You need to state what you did, what you expected to happen, what actually happened, what the full error message is, and what you have ruled out as the cause.
 
-While it is possible that you are the first person to notice an
-obvious deficiency in system calls and libraries heavily used by
-hundreds or thousands of people, it is rather more likely that you are
-utterly clueless. Extraordinary claims require extraordinary evidence;
-when you make a claim like this one, you must back it up with clear
-and exhaustive documentation of the failure case.
+## Throwing Platform Problems at Irrelevant People
 
-**Q:**
+<a id="q6"></a>
+> Question: I'm having trouble with my Windows computer, can you help me?
 
-I'm having problems installing Linux or X. Can you help?
+Answer: Yes, throw out the Microsoft crap and get an open source OS like Linux or BSD.
 
-**A:**
+Note: If the program has an official version of Windows or interacts with Windows (e.g. Samba), you **can** ask Windows-related questions, just don't be surprised by replies that the problem is caused by the Windows operating system rather than the program itself, because Windows in general just sucks, and that statement is usually true.
 
-No. I'd need hands-on access to your machine to troubleshoot
-this. Go ask your local Linux user group for hands-on help. (You can
-find a list of user groups [here](http://www.linux.org/groups/index.html).)
+The key is not "can't ask Windows", but rather the right place and the right scope. Questions related to the project itself can be directed to the project community; purely system usage questions should be directed to a more appropriate Windows support channel.
 
-Note: questions about installing Linux may be appropriate if
-you're on a forum or mailing list about a particular distribution, and the
-problem is with *that* distro; or on local user
-groups forums. In this case, be sure to describe the exact details of
-the failure. But do careful searching first, with "linux" and
-*all* suspicious pieces of hardware.
+## Allegations of faulty underlying tools without evidence
 
-**Q:**
+<a id="q7"></a>
+> Problem: My program won't move, I think there's something wrong with System Tools X!
 
-How can I crack root/steal channel-ops privileges/read someone's
-e-mail?
+Answer: It is entirely possible that you are the first person to notice an obvious flaw in a system call and library file that is used repeatedly by thousands of users, or more likely, that you are completely unfounded. Extraordinary claims require extraordinary evidence, and when you make such claims, you must back them up with clear and detailed documentation of the defects.
 
-**A:**
+The more you point to underlying, generic, heavily used components, the more rigorous evidence you need. Start by assuming that your environment, input, usage, or understanding may be wrong, and then support your judgment with minimal replication and clear logs.
 
-You're a lowlife for wanting to do such things and a moron for asking
-a hacker to help you.
+## Issues requiring on-site operation
+
+<a id="q8"></a>
+> Question: I'm having trouble installing Linux (or X), can you help me?
+
+Answer: no, I can only find the fault if I do it myself on your computer. It's better to go to your local Linux usage groupers for practical guidance (you can find a list of user groups [here](http://www.linux.org/groups/index.html)).
+
+Note: If the installation problem is related to a particular Linux distribution, it may be appropriate to ask a question on its mailing list, forum, or local user group. In this case, the exact details of the problem should be described. Before doing so, do a careful search using the keywords `Linux` and **all** suspected hardware.
+
+Installation-type issues often rely on the live environment, hardware status, and screen output. If sufficient detail cannot be provided, local user groups, distribution communities, or support channels that can remotely view the environment are often better suited to handle such issues.
+
+## Requests for unlawful or malicious acts
+
+<a id="q9"></a>
+> Question: how can I crack a root account/steal OP privileges/read someone else's mail?
+
+Answer: wanting to do so shows you're a scumbag; wanting a hacker to help you shows you're an idiot!
+
+Don't package vandalism, theft, bypassing authorization, or invasion of privacy as a "technical problem". A responsible technical community will not help you harm others, nor will it engage in illegal or unethical behavior in order to demonstrate technical prowess.
+
+## summarize
+
+These questions are bad because they put the burden of searching, experimenting, defining goals, providing evidence, and taking responsibility on the responder. Questions that are really worth asking should show others that: you've made reasonable preparations and now just need help on a specific, clear, discussable point.

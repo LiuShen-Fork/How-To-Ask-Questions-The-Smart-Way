@@ -1,33 +1,27 @@
 ---
-title: "Don't rush to claim that you have found a bug"
+title: Don't claim to have found a bug.
+hide_breadcrumbs: true
 ---
 
-When you are having problems with a piece of software, don't
-claim you have found a bug unless you are very,
-*very* sure of your ground. Hint: unless you can
-provide a source-code patch that fixes the problem, or a regression
-test against a previous version that demonstrates incorrect behavior,
-you are probably not sure enough. This applies to webpages and
-documentation, too; if you have found a documentation
-"bug", you should supply replacement text and which pages
-it should go on.
+When you have a problem with software, don't claim to have found a bug unless you are very, **very** well-founded.Hint: Unless you can provide a source code patch that solves the problem, or regression tests that show incorrect behavior in the previous version, you are more than likely not completely sure. The same applies to web pages and documents; if you (claim to) have found a `bug` in a document, you should be able to provide a fix or replacement file in the appropriate location.
 
-Remember, there are many other users that are not
-experiencing your problem. Otherwise you would have learned about it
-while reading the documentation and searching the Web (you did do that
-before complaining, [didn't you](/en/docs/before-questions)?). This
-means that very probably it is you who are doing something wrong, not
-the software.
+## A Possible Bug Requires Evidence
 
-The people who wrote the software work very hard to make it work
-as well as possible. If you claim you have found a bug, you'll be
-impugning their competence, which may offend some of them even if you
-are correct. It's especially undiplomatic to yell "bug"
-in the Subject line.
+Remember, there are many other users who are not experiencing the problems you found, or you would have found them when reading the document or searching the web (you [already did all this, didn't you] before complaining (# before asking the question)?) . It also means that it's likely that you're mistaken rather than the software itself being faulty.
 
-When asking your question, it is best to write as though you
-assume *you* are doing something wrong, even if you
-are privately pretty sure you have found an actual bug. If there
-really is a bug, you will hear about it in the answer. Play it so the
-maintainers will want to apologize to you if the bug is real, rather
-than so that you will owe them an apology if you have messed up.
+If you suspect a bug, please try to provide it:
+
+- Minimum Reproduction Step.
+- Differences in behavior between current and historical versions.
+- A clear basis for expected behavior, such as a document or specification.
+- logs, test cases, patches, or failed regression tests.
+
+## Allegations detract from the atmosphere of dialogue
+
+People who write software always work very hard to make it as perfect as possible. If you claim to have found a bug, you are also questioning their ability to do so, and even if you are right, there is a chance that you will offend some part of them. This is especially serious when you yell about `bugs` in your title.
+
+## Report in a humble but clear manner
+
+When asking a question, even if you're privately very sure you've found a real bug, it's best to write it like **you** did something wrong. If there really is a bug, you'll see that in the reply. By doing this, the maintainer will apologize to you if there really is a bug, which is a bit better than if you annoy someone and then owe them an apology.
+
+For example, change `This library is buggy` to `In this minimal example, the behavior of 2.1.0 does not match the documentation; am I missing a configuration? `. This way of writing preserves the severity of the problem and leaves room for judgment on the part of the maintainer.

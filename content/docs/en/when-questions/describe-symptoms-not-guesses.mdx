@@ -1,38 +1,34 @@
 ---
-title: "Describe the problem's symptoms, not your guesses"
+title: Describe the symptoms of the problem rather than your guesses
+hide_breadcrumbs: true
 ---
 
-It's not useful to tell hackers what you think is causing your
-problem. (If your diagnostic theories were such hot stuff, would you
-be consulting others for help?) So, make sure you're telling them the
-raw symptoms of what goes wrong, rather than your interpretations and
-theories. Let them do the interpretation and diagnosis. If you feel
-it's important to state your guess, clearly label it as such and
-describe why that answer isn't working for you.
+Telling hackers how you think the problem is caused doesn't help. (If your extrapolations are so valid, why ask for help?) ), so be sure you're telling them the symptoms of the problem as they are, not your explanations and theories; let the hackers speculate and diagnose. If you think it's important to state your guesses, clearly state that they're just your guesses and describe why they don't work.
 
-**Stupid:**
+## Give Evidence Before Speculation
 
-I'm getting back-to-back SIG11 errors on kernel compiles, and suspect a
-hairline crack on one of the motherboard traces. What's the best way to
-check for those?
+Facts should come first: what happened, when it happened, how it was reproduced, what the misinformation was, and what patterns you observed. Speculation can be written, but label it as just speculation and don't package it as a conclusion.
 
-**Smart:**
+## Counter-example: jumping to premature conclusions
 
-My home-built K6/233 on an FIC-PA2007 motherboard (VIA Apollo VP2
-chipset) with 256MB Corsair PC133 SDRAM starts getting frequent SIG11
-errors about 20 minutes after power-on during the course of kernel
-compiles, but never in the first 20 minutes. Rebooting doesn't restart
-the clock, but powering down overnight does. Swapping out all RAM
-didn't help. The relevant part of a typical compile session log
-follows.
+**Stupid question:**
 
-Since the preceding point seems to be a tough one for many people to
-grasp, here's a phrase to remind you: "All diagnosticians are from
-Missouri." That US state's official motto is "Show me" (earned in
-1899, when Congressman Willard D. Vandiver said "I come from a country
-that raises corn and cotton and cockleburs and Democrats, and frothy
-eloquence neither convinces nor satisfies me. I'm from Missouri.
-You've got to show me.") In diagnosticians' case, it's not a matter of
-skepticism, but rather a literal, functional need to see whatever is
-as close as possible to the same raw evidence that you see, rather
-than your surmises and summaries. Show us.
+> I'm getting SIG11 errors one after another while compiling the kernel.
+> I suspect that one of the flying wires is hitching a ride on the motherboard's alignment, what's the best way to check this situation?
+
+This question directs attention to an unproven hardware speculation that instead hides the real diagnostic value of the phenomenon.
+
+## Good example: describing observable phenomena
+
+**Smart question:**
+
+> My assembled computer is a FIC-PA2007 motherboard with an AMD K6/233 CPU (VIA Apollo VP2 chipset).
+> 256MB of Corsair PC133 SDRAM memory, when compiling the kernel, it generates SIG11 errors frequently from 20 minutes after bootup.
+> But never had the same problem for the first 20 minutes. Rebooting didn't help, but shutting down overnight made it work again for 20 minutes.
+> All memory has been replaced, no effect. The relevant part of the standard compilation record is as follows...
+
+The value here is that it provides the hardware environment, time patterns, exclusions made, and associated logs. The responder can continue the diagnosis based on facts, rather than being forced to tear down the questioner's guesses first.
+
+## "Let me see."
+
+Since the above seems to be difficult for many to work with, here's a reminder: `All diagnosticians come from Missouri.' The official motto of the U.S. Department of State, on the other hand, is: `Let me see it' (from Congressman Willard D. Vandiver in 1899: `I come from a country of corn, cotton, burdock, and Democrats, and eloquence neither convinces nor satisfies me. I come from Missouri, and you must show me. ') Against the diagnostician, this is not a suspicion, but simply a real and useful need to be shown something that is as consistent as possible with the original evidence that you have seen, rather than your conjectures and inductive conclusions. So, show it generously!

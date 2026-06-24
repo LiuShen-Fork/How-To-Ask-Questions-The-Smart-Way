@@ -1,68 +1,66 @@
 ---
-title: "Good and Bad Questions"
+title: Good and bad problems
+hide_breadcrumbs: true
 ---
 
-Finally, I'm going to illustrate how to ask questions in a smart way
-by example; pairs of questions about the same problem, one asked in
-a stupid way and one in a smart way.
+Finally, let's illustrate what it means to "ask smart questions" with a few contrasting examples. The same question can appear in two ways: one reveals laziness, arrogance or lack of information, while the other demonstrates preparedness, boundaries and collaborability.
 
-**Stupid:** Where can I find out stuff about the Foonly Flurbamatic?
+When reading these examples, don't just memorize the syntax. What really matters is the judgment criteria behind them: whether you state the goal, show the attempt, give the context, shift the blame to someone else, and give the respondent enough information to continue the analysis.
 
-This question just begs for ["STFW"](/en/docs/how-to-read-answer/rtfm-and-stfw) as a
-reply.
+## Information-seeking questions
 
-**Smart:** I used Google to try to find "Foonly Flurbamatic 2600" on the Web, but I got no useful hits. Can I get a pointer to programming information on this device?
+**Stupid question**:
 
-This one has already STFWed, and sounds like there might be a real
-problem.
+> Where can I find information about Foonly Flurbamatic?
 
-**Stupid:** I can't get the code from project foo to compile. Why is it broken?
+This line of questioning wants nothing more than an answer like [STFW](#RTFM).
 
-The querent assumes that somebody else screwed up. Arrogant git...
+**Smart question**:
 
-**Smart:** The code from project foo doesn't compile under Nulix version 6.2. I've read the FAQ, but it doesn't have anything in it about Nulix-related problems. Here's a transcript of my compilation attempt; is it something I did?
+> I've searched for "Foonly Flurbamatic 2600" using Google, but haven't found any useful results. Does anyone know where to look for information on programming this device?
 
-The querent has specified the environment, read the FAQ, is showing
-the error, and is not assuming his problems are someone else's
-fault. This one might be worth some attention.
+This has been STFW and it looks like he's really in trouble.
 
-**Stupid:** I'm having problems with my motherboard. Can anybody help?
+## Compile Failure Type Problems
 
-J. Random Hacker's response to this is likely to be "Right. Do you
-need burping and diapering, too?" followed by a punch of the delete
-key.
+**Stupid question**:
 
-**Smart:** I tried X, Y, and Z on the S2464 motherboard. When that didn't work, I tried A, B, and C. Note the curious symptom when I tried C. Obviously the florbish is grommicking, but the results aren't what one might expect. What are the usual causes of grommicking on Athlon MP motherboards? Anybody got ideas for more tests I can run to pin down the problem?
+> The source code I got from the foo project doesn't compile. Why does it suck?
 
-This person, on the other hand, seems worthy of an
-answer. He/she has exhibited problem-solving intelligence rather than
-passively waiting for an answer to drop from on high.
+He thinks it's all someone else's fault, this arrogant, pompous questioner.
 
-In the last question, notice the subtle but important difference
-between demanding "Give me an answer" and "Please
-help me figure out what additional diagnostics I can run to achieve
-enlightenment."
+**Smart question**:
 
-In fact, the form of that last question is closely based on a
-real incident that happened in August 2001 on the linux-kernel mailing
-list (lkml). I (Eric) was the one asking the question that time. I was
-seeing mysterious lockups on a Tyan S2462 motherboard. The
-list members supplied the critical information I needed to solve
-them.
+> The foo project code does not compile under Nulix version 6.2. I've read the FAQ, but there's no mention of Nulix-related issues in it. Here's a log of my compilation process, is there anything I'm doing wrong?
 
-By asking the question in the way I did, I gave people something
-to chew on; I made it easy and attractive for them to get involved. I
-demonstrated respect for my peers' ability and invited them to consult
-with me as a peer. I also demonstrated respect for the value of their
-time by telling them the blind alleys I had already run down.
+The questioner has specified the context, has read the FAQ, has listed the errors, and he's not blaming someone else for the problem; his question deserves to be noticed.
 
-Afterwards, when I thanked everyone and remarked how well the
-process had worked, an lkml member observed that he thought it had
-worked not because I'm a "name" on that list, but because
-I asked the question in the proper form.
+## Hardware or environmental anomaly type problems
 
-Hackers are in some ways a very ruthless meritocracy; I'm
-certain he was right, and that if I *had* behaved
-like a sponge I would have been flamed or ignored no matter who I was.
-His suggestion that I write up the whole incident as instruction to
-others led directly to the composition of this guide.
+**Stupid question**:
+
+> I have a problem with my motherboard, can someone help me?
+
+A certain hacker's answer to this type of question is usually, `Okay, want another pat on the back and a diaper change? `, and then hit the delete button.
+
+**Smart question**:
+
+> I tried X, Y, and Z on the S2464 motherboard, but that didn't help, so I tried A, B, and C again. Notice something strange when I tried C. Apparently the florbish is grommicking, but with surprising results. Apparently florbish is grommicking, but the result is surprising. What is the usual cause of grommicking on Athlon MP motherboards? Does anyone know what tests I should do next to find the problem?
+
+This guy, on the other hand, deserves to have his answer. He showed the ability to solve problems instead of sitting around waiting for answers to fall from the sky.
+
+## "Tell me the answer" versus "direct me to the checklist."
+
+In the last question, note the subtle but important distinction between `Tell me the answer` and `Give me insight into what other diagnostic work I should do`.
+
+In fact, the latter question originated from an actual question asked in August 2001 on the Linux kernel mailing list (lkml). I (Eric) was the one who asked the question. I had observed this unexplained lockup on a Tyan S2464 motherboard, and the list members provided important information on how to solve the problem.
+
+Through my method of questioning, I give people something to chew on; I manage to make it easy for people to participate and be drawn in. I show that I am equal to them and invite them to explore with me. I also showed respect for their valuable time by telling them about the detours I had taken so that they would not waste any more of it.
+
+## Lessons behind the example
+
+Afterwards, when I thanked everyone and appreciated the good discussion experience, a member of the Linux kernel mailing list expressed his feeling that my question was resolved not because I was the **name** of the list, but because I asked the question in the right way.
+
+Hackers are in some ways guys with a wealth of knowledge but a lack of human touch; I believe he's right, if I **asked** questions like a **beggar**, no matter who I was, I'd be sure to annoy or be ignored by some people. He suggested I make a note of this, which led directly to this guide.
+
+A good question doesn't guarantee an answer, but it significantly increases the probability that someone will be willing to invest their time. It communicates not "do my job for me" but "I've done what I need to do to prepare and now I need someone more experienced to help me continue to make a judgment call".

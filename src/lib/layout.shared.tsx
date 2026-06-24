@@ -8,8 +8,15 @@ const localeNav = {
   en: { title: 'Smart Questions', url: '/en' },
 } satisfies Record<Locale, { title: string; url: string }>;
 
+const localeLinks = {
+  zh: { home: '主页', blog: '博客' },
+  'zh-tw': { home: '主頁', blog: '部落格' },
+  en: { home: 'Home', blog: 'Blog' },
+} satisfies Record<Locale, { home: string; blog: string }>;
+
 export function baseOptions(locale: Locale = 'zh'): BaseLayoutProps {
   const nav = localeNav[locale];
+  const links = localeLinks[locale];
 
   return {
     nav: {
@@ -20,14 +27,14 @@ export function baseOptions(locale: Locale = 'zh'): BaseLayoutProps {
     links: [
       {
         type: 'main',
-        text: '主页',
+        text: links.home,
         url: 'https://www.liushen.fun/',
         external: true,
         active: 'none',
       },
       {
         type: 'main',
-        text: '博客',
+        text: links.blog,
         url: 'https://blog.liushen.fun/',
         external: true,
         active: 'none',
