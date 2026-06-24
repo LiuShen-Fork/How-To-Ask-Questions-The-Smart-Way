@@ -1,0 +1,15 @@
+# a thank-you note (/en/docs/thanks)
+
+
+
+This guide wasn't done out of thin air. Feedback, examples, and suggestions for revisions from many people took it from an article about ways to ask questions to a more complete guide to collaboration in the technical community.
+
+## benefactor [#benefactor]
+
+Evelyn Mitchel contributed some examples of silly questions and inspired the section `How to answer questions better`.
+
+Mikhail Ramendik contributed some particularly valuable suggestions and improvements.
+
+## Why retain acknowledgements [#why-retain-acknowledgements]
+
+The technical community relies on ongoing corrections and additions. Documenting contributors is not just a courtesy, it's also a reminder to readers that good documentation, like good problems, is the result of collaboration and iterative polishing by multiple people.

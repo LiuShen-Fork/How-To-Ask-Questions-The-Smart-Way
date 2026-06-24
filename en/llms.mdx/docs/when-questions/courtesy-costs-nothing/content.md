@@ -1,0 +1,23 @@
+# It's not surprising that many people have bad manners. (/en/docs/when-questions/courtesy-costs-nothing)
+
+
+
+Be courteous and use `please` and `thank you for your interest`, or `thank you for looking out for me`. Let everyone know you appreciate them taking the time to help for free.
+
+## Courtesy is not a substitute for content [#courtesy-is-not-a-substitute-for-content]
+
+Frankly, this is no more important (nor can it be replaced) than using clear, correct, precise and grammatical and avoiding proprietary formats. Hackers generally prefer to read bug reports that are a bit abrupt but technically distinct, rather than the polite but vague kind. (If this puzzles you, remember that we value problems by what they can teach us)
+
+In other words, courtesy is a plus, not a cop-out. A question with no context, no misinformation, and no record of attempts is still a difficult question to answer, even if it's filled with "Thank you."
+
+## Politeness affects long-term response [#politeness-affects-long-term-response]
+
+However, if you have a string of questions pending, being polite will definitely increase your chances of getting a helpful response.
+
+The tech community has a memory. Others will remember if you respect time, give feedback on results, and add summaries after getting help. Being polite, honest, and thanking you in a timely manner will make people more likely to continue to pay you attention the next time.
+
+## On "Thank you in advance." [#on-thank-you-in-advance]
+
+(We've noticed that the only seriously flawed feedback we've gotten from veteran hackers since the release of this guide is on the `thank you in advance' line. Some hackers feel that `thank you in advance`means that they don't have to thank anyone for the hint afterwards. Our suggestion is to either say`Thanks in advance`**and then** thank the responder afterward, or express gratitude in a different way, such as with`Thanks for your attention`or`Thanks for your concern\`.)
+
+The safest course of action is to express appreciation for the attention of others when asking the question, and then explicitly thank the person who specifically helped you after the question is resolved, and add the end result.

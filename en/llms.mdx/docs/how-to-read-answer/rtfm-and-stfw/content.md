@@ -1,0 +1,24 @@
+# RTFM and STFW (/en/docs/how-to-read-answer/rtfm-and-stfw)
+
+
+
+There's an old and hallowed tradition: if you get a `RTFM (Read The Fucking Manual)` response, the responder thinks you **should go read the fucking manual**. Of course, basically he's right, you should go read it.
+
+RTFM has a young relative. If you get a `STFW (Search The Fucking Web)` response, the responder thinks you **should search the fucking web*&#x2A;. That person is more than likely right too, go search. (On a more moderate note &#x2A;*[Google is your friend](http://lmgtfy.com/)**!)
+
+## It's not usually a refusal to help [#its-not-usually-a-refusal-to-help]
+
+In the forums, you may also be asked to crawl through old forum posts. In fact, someone may even be eager to provide you with a discussion string from a previous solution to the problem. But don't rely on this kind of care; you should search for old articles before asking questions.
+
+Often, people who answer you with one of these two sentences will give you a brochure or a Web site that contains what you need, and they are reading it as they type these words. These responses imply that the responder believes:
+
+* **The information you need is very easy to get**;
+* **You can learn more by searching for this information yourself than by having it poured into you**.
+
+## What should you do? [#what-should-you-do]
+
+The correct response to receiving this type of response is not to get angry, but to follow the clues and read them. Open the manual, search for keywords, go through old discussions, and make sure the answer is already there. If you still don't understand after reading, come back with specific cardinal points to ask questions.
+
+For example, instead of `I can't read it', reply: `I read the paragraph about X in the manual, but I'm not sure if Y here is the reason you're talking about; did I understand it correctly? \`
+
+You shouldn't be offended by this; **according to hacker standards, he has shown a certain level of concern for you without turning a blind eye to your request**. You should be grateful for his grandmotherly kindness.

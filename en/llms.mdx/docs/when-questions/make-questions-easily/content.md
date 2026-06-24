@@ -1,0 +1,17 @@
+# facilitate (/en/docs/when-questions/make-questions-easily)
+
+
+
+Ending your question with `Please send your reply to ......` will more than likely leave you unanswered. If you think it's a hassle to spend a few seconds setting up a reply address in your email client, we also think it's a hassle to spend a few seconds thinking about your question. If your mail program doesn't support this, [get a better one](http://linuxmafia.com/faq/Mail/muas.html); if it's the operating system that doesn't support this kind of mail program, get a better one too.
+
+## Don't pass on the cost of responding [#dont-pass-on-the-cost-of-responding]
+
+The respondent is already doing you a favor by being willing to take the time to think about your question. Stop asking them to bypass normal channels of discussion, copy to a private address, notify you individually, or satisfy your mail-receiving habits with extra steps.
+
+If you need email alerts, configure your own client or forum notifications rather than letting each responder handle it for you.
+
+## Don't ask for email replies in the forum [#dont-ask-for-email-replies-in-the-forum]
+
+On the forums, it's very rude to ask for replies via e-mail, unless you think the information being replied to might be sensitive (someone will let only you and not the whole forum know the answer for some unknown reason). If you just want an email alert when someone replies to a discussion string, ask the web forum to send it to you. Almost all forums support features such as `track this discussion string`, `send email alerts when there are replies`, etc.
+
+Where the question is asked publicly, the answer should usually be left publicly as well. That way it can be searched, quoted and added to by those who come after.

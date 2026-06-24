@@ -1,0 +1,82 @@
+# Before you ask a question. (/en/docs/before-questions)
+
+
+
+Before you are ready to ask a technical question via e-mail, forum, Issue area, newsgroup, or chat room, stop and do a round of preparation. Asking a question isn't about passing the trouble on to someone else, it's about organizing the facts you've already observed, the paths you've already tried, and the parts that still elude you, so that someone else can go on to judge.
+
+## Find your own round of answers first [#find-your-own-round-of-answers-first]
+
+Try at least these things below before sending out questions:
+
+1. Search for old articles in the forum, mailing list, or Issue area where you are going to ask the question.
+2. Use a search engine to find error messages, key logs, exception names, or specific behaviors.
+3. Read manuals, official documentation, command help, or API descriptions.
+4. Read the Frequently Asked Questions document (FAQ), troubleshooting guide, and list of known issues.
+5. Do your own minimization checks or experiments to confirm that the problem recurs consistently.
+6. Ask for advice from more experienced friends, colleagues or classmates around you.
+7. If you are a program developer, read the relevant source code, test cases, or change logs.
+
+The purpose of this step is not to prove that you already know everything, but to try to eliminate questions that already have clear answers and just require patience to find them. You finish the round first so that when someone else takes over they don't have to retrace your steps from the very basics.
+
+## Let others see your efforts [#let-others-see-your-efforts]
+
+When you ask a question, be proactive and explain what you have already tried. For example, what keywords you've searched for, what documentation you've read, what configurations you've tried, and what error results you've gotten. Doing so lets the responder know that you're not someone who just throws questions at the community without trying.
+
+If you can, please describe further what you **learned** from these attempts. For example:
+
+* You find that the problem only occurs in a certain version.
+* You confirm that the same piece of configuration will work on another machine.
+* You ruled out one of the categories of permissions, network, paths, or dependent versions.
+* You've found a similar problem, but it has different prerequisites than you do.
+
+This information is much more valuable than "I tried that and it didn't work". They help others quickly determine where to look next, and they make your questions searchable and reusable for those who come after you.
+
+## Searching isn't a formality, it's narrowing the problem [#searching-isnt-a-formality-its-narrowing-the-problem]
+
+Make good use of search engines, especially searching for complete error messages, exception types, key log snippets, command output, and library version numbers. For technologies with a lot of historical information, you can also search [Google forums](http://groups.google.com/), project mailing lists, Issue areas, and Q\&A sites.
+
+Even if the search does not give a direct answer, please include the search process in the question. For example:
+
+`I've used Google to search for "exact error message here" and "library name version error", but the results I find are for older versions that don't match my current environment.`
+
+The value of this statement goes beyond just showing that you tried. It also tells the responder which paths have failed and prevents them from repeatedly giving advice you've already validated. Also, questions that include search terms are more likely to be indexed by search engines, and people who encounter similar problems in the future are more likely to find your discussion.
+
+## Give the Question a Little Cooling Off Time [#give-the-question-a-little-cooling-off-time]
+
+Don't rush, don't expect a few seconds of searching to solve a complex problem. Many technical problems require you to read a few more paragraphs of documentation, try a few more variables, and compare a few more sets of phenomena before you can see where the real conflict lies.
+
+Before seeking help from an expert, you can do another short review:
+
+1. Can I say in one sentence what I want to achieve?
+2. Will I be able to reproduce this problem consistently?
+3. Do I log environment, version, input, output and error messages?
+4. Do I know which factors have been ruled out?
+5. Does my question contain only one clear topic, rather than mixing many unrelated issues together?
+
+Hasty questions usually get only hasty answers, if any at all. The more you can show that you put in the reading, experimenting and thinking before asking for help, the more likely you are to get substantial help.
+
+## Avoid asking questions with false assumptions [#avoid-asking-questions-with-false-assumptions]
+
+Be careful not to ask the wrong question. Many bad questions are asked not because the questioner can't describe the phenomenon, but because they identify the cause too early. For example, asking "why is this library buggy" when the problem could be caused by permissions, paths, version conflicts, or input formatting.
+
+If your question is based on false assumptions, the respondent may only be able to correct your assumptions rather than give the answer you expect. A better approach is to separate fact from speculation:
+
+* Facts: what commands I executed, what the inputs were, and what the actual outputs were.
+* Anticipation: what I had expected to happen.
+* Guess: I suspect it may be related to a certain configuration, but no proof yet.
+* Point of help: which layer should I continue to check?
+
+Writing it this way leaves room for judgment on the part of the respondent and reduces the cost of them being forced to dismantle false premises.
+
+## Earn Answers Through Action [#earn-answers-through-action]
+
+Never assume that you **deserve** to get answers. You didn't pay for a community member's time, and you're in no position to demand that someone else solve your problems for you unconditionally. You get answers by asking your own visceral, boundary-pushing, thought-provoking questions to **earn** them.
+
+This doesn't mean you have to be close to an answer already. On the contrary, questions are more likely to be answered if you show a willingness to move on. The following questions are usually more effective than "Please send me the complete steps:
+
+* `Can anyone give me a little direction for troubleshooting?`
+* `What other key information is missing from this minimal example?`
+* `Should I prioritize checking permissions, dependency versions, or input formats?`
+* `Is my current inference patently wrong?`
+
+These asks convey one important thing: you're willing to continue with the rest of the work as long as someone can point you in the right direction. For the tech community, such questioners deserve help.

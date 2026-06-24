@@ -1,0 +1,40 @@
+# Choose the forum in which you ask your questions carefully (/en/docs/when-questions/carefully-select-forum)
+
+
+
+Choosing the occasion to ask a question is part of the quality of the question. A question, even if well described, may be ignored if sent to the wrong place, whereas a general question is more likely to receive an accurate response if sent to the right community.
+
+## What happens when you send it to the wrong place [#what-happens-when-you-send-it-to-the-wrong-place]
+
+Choose carefully the occasions when you are going to ask questions. If you do any of the following, you are likely to be ignored or seen as a failure:
+
+* Post your question in a forum that is not on topic.
+* Post very elementary questions in a forum that explores advanced technical issues; and vice versa.
+* Repeatedly reposting the same issue on too many different newsgroups (cross-post).
+* Send a private email to someone who is neither an acquaintance nor obligated to solve your problem.
+
+Hackers weed out questions that get the occasion wrong to protect their channels of communication from being flooded with irrelevant stuff. You don't want that to happen to you.
+
+## Find the really relevant community first [#find-the-really-relevant-community-first]
+
+So the first step is to find the right forum. Again, Google and other search engines are still your friend, use them to find the sites most relevant to the hardware or software problem you are having trouble with. Usually there are links to Frequently Asked Questions (FAQ), mailing lists, and related documentation. If your efforts (including **reading** the FAQ) have been fruitless, there may be a process or link on the site for bug-reporting, in which case, link to it.
+
+Sending emails to unfamiliar people or forums is most likely the riskiest thing you can do. For example, don't assume that the author of a web page offering rich content will want to act as your free consultant. Don't be too optimistic about whether your question will be well received -- if you're not sure, send it elsewhere, or don't send it at all.
+
+## Observe the culture of the community first [#observe-the-culture-of-the-community-first]
+
+When choosing a forum, newsgroup, or mailing list, don't put too much stock in the name; look at the FAQ or the license book first to figure out if your question is relevant. Look through existing topics before posting, as this will give you a feel for the culture. In fact, it's a good idea to search the history of newsgroups or mailing lists for keywords related to your question beforehand, and you might just find the answer. Even if it doesn't, it can help you generalize to a better question.
+
+Don't "machine-gun" all the channels of help at once, which is as unpleasant as shouting. Do it one by one.
+
+## Confirmation that the problem belongs here [#confirmation-that-the-problem-belongs-here]
+
+Be clear about your topic! One of the most typical mistakes is to ask questions about Unix or Windows OS program interfaces in a forum dedicated to some kind of cross-platform portable language, suite, or tool. If you don't understand why this is a big mistake, it's best not to ask anything until you understand the difference.
+
+Generally speaking, asking a question in a carefully selected public forum will be more likely to get a useful answer than asking the same question in a private forum. There are a couple of reasons to support this, one is to look at how many potential responders there are, and the other is to look at the size of the audience. Hackers are more likely to answer questions that will help many people.
+
+## Don't abuse private channels [#dont-abuse-private-channels]
+
+Understandably, sophisticated hackers and authors of some popular software are receiving an inordinate amount of misdirected messages. Like the straw that finally broke the camel's back, your inclusion has the potential to take the situation to extremes -- there have been several occasions where authors of popular software have stopped providing support due to the intolerable amount of useless mail flooding into their private mailboxes.
+
+Unless the person explicitly invites you to contact them privately, prioritize the use of public channels. Not only are public discussions more likely to result in answers, but they can also benefit those who later encounter the same problem.

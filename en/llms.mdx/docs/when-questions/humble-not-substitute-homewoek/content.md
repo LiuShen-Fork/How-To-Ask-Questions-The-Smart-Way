@@ -1,0 +1,19 @@
+# Whispering is not a substitute for doing your homework. (/en/docs/when-questions/humble-not-substitute-homewoek)
+
+
+
+Some people understand that they shouldn't be rude or arrogant enough to ask questions and demand answers, but they choose the other extreme -- to whisper, `I know I'm just a pathetic novice, a loser, but... `. This is both troubling and unhelpful, and is especially offensive when accompanied by descriptions that are vague in relation to the actual question.
+
+## Self deprecation does not make the issue clearer [#self-deprecation-does-not-make-the-issue-clearer]
+
+Lowering your voice may seem humble, but in reality it will divert attention from the question itself to your emotions. The respondent needs facts, context, goals, and a record of attempts, not your opinion of yourself.
+
+Don't waste your time and mine with primitive primate tricks. Instead, describe the background conditions and your problematic situation as clearly as possible. This positions you better than whispering.
+
+A better way to phrase it would be: `I'm new to this library, have read the Getting Started documentation and FAQ, and still don't understand the following error. ` This both describes your level of experience and provides valid context.
+
+## Even newbies should ask serious questions [#even-newbies-should-ask-serious-questions]
+
+Sometimes web forums will have a section just for newbies to ask questions, so if you really think you're having a beginner's problem, just go there, but again, don't be so down on yourself.
+
+Newbie status isn't the problem, refusing to do your homework is. Being honest about where you don't know what you don't know and then giving what you've already tried is more helpful than apologizing over and over again.

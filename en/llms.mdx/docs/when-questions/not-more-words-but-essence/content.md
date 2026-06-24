@@ -1,0 +1,22 @@
+# It is better to talk too much than to be precise. (/en/docs/when-questions/not-more-words-but-essence)
+
+
+
+You need to provide precise and informative information. This doesn't mean that you should simply transcribe reams of error code or information into your question. If you have a large and complex test sample that reproduces a situation where the program hangs, try to cut it down to as small a size as possible.
+
+## Enough information, but don't pile it on [#enough-information-but-dont-pile-it-on]
+
+"Detailed" is not the same as "post everything". Logs, configurations, code, screenshots, and error messages should all be filtered. You need to keep the facts that support the diagnosis and cut out the noise that is not relevant to the problem.
+
+If the problem can be reproduced in 20 lines of code, don't stick the whole project. Don't cram tens of thousands of lines of logging directly into the body if the error is only in the last 30 lines of logging.
+
+## Three values of the minimization problem [#three-values-of-the-minimization-problem]
+
+This is useful for at least three reasons.
+First, it shows that you've put effort into simplifying the question, which can lead to an increased chance of getting an answer;
+Second, simplifying the question makes it more likely that you'll get **useful** answers;
+Third, in the process of refining your bug report, you may well have found a solution or stopgap on your own.
+
+## A Practical Standard [#a-practical-standard]
+
+Ask yourself before you ask a question: can the respondent reproduce or understand the question with the material you've given them without having to search for clues in a mass of extraneous content? If not, keep cutting, organizing, and highlighting.

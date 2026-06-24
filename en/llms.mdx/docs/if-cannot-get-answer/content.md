@@ -1,0 +1,27 @@
+# If you can't get an answer (/en/docs/if-cannot-get-answer)
+
+
+
+If you still don't get an answer, please don't think we don't feel able to help you. Sometimes it's just that the person who sees your question doesn't know the answer. A lack of response doesn't mean you're being ignored, although there's no denying that the difference is hard to tell.
+
+## Don't re-post immediately [#dont-re-post-immediately]
+
+Overall, simply repeating the posting question is a terrible idea. It will be seen as a pointless racket. Have a little patience, the person who knows the answer may live in a different time zone, may be sleeping, or may not see your question for a while.
+
+It's also possible that your problem wasn't organized well to begin with. Instead of reissuing it as is, start by rechecking the title, environment information, reproduction steps, error output, and paths you've already tried.
+
+## Change to a more appropriate channel [#change-to-a-more-appropriate-channel]
+
+You can get help through other channels that are often better suited to beginners. Many online and local user groups consist of enthusiastic software enthusiasts who may not have written the software themselves, but are more than willing to help each other and are more accustomed to answering introductory questions.
+
+If the issue belongs to a specific distribution, hardware, commercial software, cloud service, or internal organizational environment, it should also be a priority to seek out the corresponding user group, vendor support, official forums, or local community. Changing channels is not a cop-out, it's a way to send the issue to a place where someone is more likely to understand the context.
+
+## Accepting paid support is also a normal choice [#accepting-paid-support-is-also-a-normal-choice]
+
+Alternatively, you can seek help from commercial companies, whether they are big or small. Don't get frustrated because you have to pay to get help. If your car's engine cylinder seal blew out, you would take your car to a body store and pay for the repair. Just because the software didn't cost you anything doesn't mean that the technical support has to be free in perpetuity as well.
+
+For popular software like Linux, each developer may correspond to thousands of users. It is impossible for one person to handle all the requests for help. Even if you have to pay for assistance, the cost is usually not prohibitive compared to buying similar closed software; and paid support in the open source ecosystem tends to be more straightforward and transparent.
+
+## Reorganize and Come Back [#reorganize-and-come-back]
+
+If you still want to continue asking questions in the original community, please improve the question itself first, rather than mechanically repeating it. Write clearly what you've added to your findings, what you've narrowed down, what you've ruled out, and what you're still stuck on. A reorganized question is far more worthy of a response than a second or third posting of the same paragraph.

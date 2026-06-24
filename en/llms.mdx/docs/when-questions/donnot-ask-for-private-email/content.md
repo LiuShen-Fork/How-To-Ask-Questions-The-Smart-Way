@@ -1,0 +1,17 @@
+# Don't ask for a private email response (/en/docs/when-questions/donnot-ask-for-private-email)
+
+
+
+Hackers believe that the problem-solving process should be open and transparent, and that the initial response can and should be corrected only if someone more experienced notices incompleteness or impropriety in the process. At the same time, there are rewards for being the one who provides the help, rewards for being seen by other peers for his abilities and knowledge.
+
+## Open discussion improves the quality of answers [#open-discussion-improves-the-quality-of-answers]
+
+When you ask for a private reply, the process and the reward are suspended. Don't do that, and let the **responder** decide whether to reply privately -- if he does, it's usually because he thinks the question is so poorly written or so superficial that it's unlikely to be of interest to anyone else.
+
+Public replies have several benefits: others can correct incorrect answers, those who come later can search for solutions, and participants can learn from the discussion. Private responses cut off all of these values.
+
+## Limited exception: you are responsible for organizing [#limited-exception-you-are-responsible-for-organizing]
+
+There is one limited exception to this rule, and if you are sure that asking a question is likely to elicit a flood of identical replies, then the magic question sentence would be `Email me and I'll summarize the replies for the forum`. It's very polite to try to save a mailing list or newsgroup from a flood of identical replies -- but you have to keep your word.
+
+If you commit like that, you have to actually organize the information you receive back into the open discussion. Otherwise, you're just sucking the knowledge out of the community and not giving anything back.

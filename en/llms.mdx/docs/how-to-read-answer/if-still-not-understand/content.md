@@ -1,0 +1,27 @@
+# If you still can't figure it out. (/en/docs/how-to-read-answer/if-still-not-understand)
+
+
+
+If you can't read the response, don't immediately ask for an explanation. Do what you used to do when you tried to solve the problem on your own (use the manual, FAQ, the internet, the masters around you) and try to figure out the person's response first. If you do need an explanation, remember to show that you've learned something from it.
+
+## Digest first, then follow up [#digest-first-then-follow-up]
+
+The responder may give you just a key word, a direction or a judgment. You need to do the basics around that clue first: look up the manual, read the FAQ, search for old discussions, experiment with commands, or ask people around you who are more familiar with it.
+
+If you really need the other person to continue explaining, show that you've already done this step. That way the other person knows you are not pushing the next round of thinking back on him as well.
+
+## Bad pursuit and good pursuit [#bad-pursuit-and-good-pursuit]
+
+Let's say if I answer you, `It seems as if zentry is stuck; you should clear it first. `
+
+This is a **very bad** follow-up response:
+
+`What's zentry?`
+
+A better way to ask is:
+
+`Oh, I've read the instructions, but zentries is only mentioned in the -z and -p arguments, and neither of them clearly explains how to clear it yet. Do you mean either of those two? Or am I missing something?`
+
+## Keep Providing Information [#keep-providing-information]
+
+A good follow-up question will state three things: what you read, where you understood, and what specific point you were stuck on. That way someone else only needs to correct your understanding or add the missing part without having to teach you from scratch all over again.

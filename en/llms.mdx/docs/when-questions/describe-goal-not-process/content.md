@@ -1,0 +1,37 @@
+# Describe the goal rather than the process (/en/docs/when-questions/describe-goal-not-process)
+
+
+
+If you're trying to figure out how to do something (rather than reporting a bug), describe your goal at the beginning, and only then state the particular step that reproduces what you're stuck on.
+
+## Why goals are more important than steps [#why-goals-are-more-important-than-steps]
+
+Often people who seek technical help have a higher level goal in mind, and they get stuck on a particular path that they think will get them there, and then run and ask which way to go, not realizing that the path itself is faulty. As a result, it takes a lot of effort to get it right.
+
+If you just ask how to do a particular step, the respondent can only help you fix that step; if you state the real goal, the respondent may point to a simpler, more robust solution that fits the design of the tool.
+
+## Counter-example: asking only for stuck steps [#counter-example-asking-only-for-stuck-steps]
+
+**Stupid question:**
+
+> How can I get a hexadecimal RGB value from the color picker of a drawing program?
+
+## Good example: state the real goal first [#good-example-state-the-real-goal-first]
+
+**Smart question:**
+
+> I'm trying to replace the color table of an image with a color code of my choice, and the only way I know how to do it now is to edit each color table slot.
+> However, it is not possible to get a hexadecimal RGB value from the color selector of a drawing program.
+
+The second method of asking the question is smarter because it lets the responder know that what you really want to accomplish is to modify the image color code, not just get a certain color value. You might get a response like `Suggest another, more appropriate tool`.
+
+## Suggestions for writing style [#suggestions-for-writing-style]
+
+The questions can be organized in this order:
+
+1. What I ultimately want to achieve.
+2. What method I have chosen so far.
+3. What step of this method am I stuck on.
+4. Do I accept a different approach.
+
+This last point is especially important. Often, the best answer is not to push you further down the wrong path, but to help you change to a more appropriate path.

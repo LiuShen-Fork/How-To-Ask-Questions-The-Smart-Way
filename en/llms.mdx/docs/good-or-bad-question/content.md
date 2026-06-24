@@ -1,0 +1,65 @@
+# Good and bad problems (/en/docs/good-or-bad-question)
+
+
+
+Finally, let's illustrate what it means to "ask smart questions" with a few contrasting examples. The same question can appear in two ways: one reveals laziness, arrogance or lack of information, while the other demonstrates preparedness, boundaries and collaborability.
+
+When reading these examples, don't just memorize the syntax. What really matters is the judgment criteria behind them: whether you state the goal, show the attempt, give the context, shift the blame to someone else, and give the respondent enough information to continue the analysis.
+
+## Information-seeking questions [#information-seeking-questions]
+
+**Stupid question**:
+
+> Where can I find information about Foonly Flurbamatic?
+
+This line of questioning wants nothing more than an answer like [STFW](#RTFM).
+
+**Smart question**:
+
+> I've searched for "Foonly Flurbamatic 2600" using Google, but haven't found any useful results. Does anyone know where to look for information on programming this device?
+
+This has been STFW and it looks like he's really in trouble.
+
+## Compile Failure Type Problems [#compile-failure-type-problems]
+
+**Stupid question**:
+
+> The source code I got from the foo project doesn't compile. Why does it suck?
+
+He thinks it's all someone else's fault, this arrogant, pompous questioner.
+
+**Smart question**:
+
+> The foo project code does not compile under Nulix version 6.2. I've read the FAQ, but there's no mention of Nulix-related issues in it. Here's a log of my compilation process, is there anything I'm doing wrong?
+
+The questioner has specified the context, has read the FAQ, has listed the errors, and he's not blaming someone else for the problem; his question deserves to be noticed.
+
+## Hardware or environmental anomaly type problems [#hardware-or-environmental-anomaly-type-problems]
+
+**Stupid question**:
+
+> I have a problem with my motherboard, can someone help me?
+
+A certain hacker's answer to this type of question is usually, `Okay, want another pat on the back and a diaper change? `, and then hit the delete button.
+
+**Smart question**:
+
+> I tried X, Y, and Z on the S2464 motherboard, but that didn't help, so I tried A, B, and C again. Notice something strange when I tried C. Apparently the florbish is grommicking, but with surprising results. Apparently florbish is grommicking, but the result is surprising. What is the usual cause of grommicking on Athlon MP motherboards? Does anyone know what tests I should do next to find the problem?
+
+This guy, on the other hand, deserves to have his answer. He showed the ability to solve problems instead of sitting around waiting for answers to fall from the sky.
+
+## "Tell me the answer" versus "direct me to the checklist." [#tell-me-the-answer-versus-direct-me-to-the-checklist]
+
+In the last question, note the subtle but important distinction between `Tell me the answer` and `Give me insight into what other diagnostic work I should do`.
+
+In fact, the latter question originated from an actual question asked in August 2001 on the Linux kernel mailing list (lkml). I (Eric) was the one who asked the question. I had observed this unexplained lockup on a Tyan S2464 motherboard, and the list members provided important information on how to solve the problem.
+
+Through my method of questioning, I give people something to chew on; I manage to make it easy for people to participate and be drawn in. I show that I am equal to them and invite them to explore with me. I also showed respect for their valuable time by telling them about the detours I had taken so that they would not waste any more of it.
+
+## Lessons behind the example [#lessons-behind-the-example]
+
+Afterwards, when I thanked everyone and appreciated the good discussion experience, a member of the Linux kernel mailing list expressed his feeling that my question was resolved not because I was the **name** of the list, but because I asked the question in the right way.
+
+Hackers are in some ways guys with a wealth of knowledge but a lack of human touch; I believe he's right, if I **asked** questions like a **beggar**, no matter who I was, I'd be sure to annoy or be ignored by some people. He suggested I make a note of this, which led directly to this guide.
+
+A good question doesn't guarantee an answer, but it significantly increases the probability that someone will be willing to invest their time. It communicates not "do my job for me" but "I've done what I need to do to prepare and now I need someone more experienced to help me continue to make a judgment call".

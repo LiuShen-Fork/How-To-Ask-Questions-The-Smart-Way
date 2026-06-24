@@ -1,0 +1,49 @@
+# Use clear, correct and precise statements (/en/docs/when-questions/use-correctly-sentence)
+
+
+
+We have found from experience that careless questioners usually also write programs & think carelessly (I'll bet on it). It's not worth it to answer questions from careless people, and we'd rather spend our time elsewhere.
+
+## The quality of your language affects how others judge you [#the-quality-of-your-language-affects-how-others-judge-you]
+
+Proper spelling, punctuation, and capitalization are important. In general, if you find it a pain in the ass to do this and don't want to care about that, then we find it a pain in the ass to ask you questions and don't want to care about that. Take a little extra effort to weigh the words, without being too stiff & formal -- in fact, hacker culture values being able to accurately use informal, slang, and humorous phrases. But it **has** to be **precise** and show signs that you're thinking and paying attention to the question.
+
+Clarity of expression isn't about appearing literate, it's about minimizing misunderstandings. A problem with confusing punctuation, random capitalization, and broken sentences can lead others to suspect that you're just as careless with your code, logs, and tests.
+
+## Avoid creating dyslexia [#avoid-creating-dyslexia]
+
+Spell, punctuate and capitalize correctly, don't confuse `its` for `it's`, `loose` for `lose` or `discrete` for `discreet`. Don't **use all caps**, it's seen as rude yelling (and all lowercase isn't much better, as it's not easy to read.) [Alan Cox](http://en.wikipedia.org/wiki/Alan_Cox) It might be possible to do this, but you can't).
+
+More vernacularly, if you write like a semi-literate \[translation: [white](http://zh.wikipedia.org/wiki/小白)], it will most likely go unheeded. Don't use abbreviations or [Martian](http://zh.wikipedia.org/wiki/火星文) in instant messaging either, e.g. simplifying `'s` to `d` will make you look like a white guy who's trying to save words for a few less keystrokes. Worse, ghosting like a child is an absolute death wish, and you can be sure that no one will pay any attention to you (or at best give you a whole lot of blame and sarcasm).
+
+## What to do when asking questions in a non-native language [#what-to-do-when-asking-questions-in-a-non-native-language]
+
+If asking a question in a forum where a non-native language is used, you can make minor spelling and grammatical errors, but never get sloppy in your thinking (and yes, we can usually figure out the difference). Also, unless you know the language the respondent is using, write in English. Busy hackers will usually just delete messages written in a language they can't read. English is the lingua franca on the web, and writing in English minimizes the likelihood that your question will be deleted outright before it's even read.
+
+If English is your foreign language (Second language), it's good to alert potential responders that you have potential language difficulties:
+\[Translation note: the original text is attached below for your use.]
+
+> English is not my native language; please excuse typing errors.
+
+* English is not my first language, so please forgive any typos or grammar.
+
+> If you speak $LANGUAGE, please email/PM me;
+> I may need assistance translating my question.
+
+* If you speak **some language**, please email/private message me;
+* I need someone to assist me in translating my questions.
+
+> I am familiar with the technical terms,
+> but some slang expressions and idioms are difficult for me.
+
+* I'm familiar with technical terms, but not with colloquialisms or special usage.
+
+> I've posted my question in $LANGUAGE and English.
+> I'll be glad to translate responses, if you only use one or the other.
+
+* I'll put my question in **some language** and in English.
+* If you reply in only one of those languages, I'll be happy to translate the reply into the language you use.
+
+## Final Criteria [#final-criteria]
+
+The language may not be perfect, but you must be seen to mean it. Respondents are usually able to distinguish between "unfamiliarity with the language" and "confused thinking", and between "plain expression" and "total disrespect for the reader". The answerer is usually able to distinguish between "poor command of the foreign language" and "confused thinking", and between "plain expression" and "total disrespect for the reader".

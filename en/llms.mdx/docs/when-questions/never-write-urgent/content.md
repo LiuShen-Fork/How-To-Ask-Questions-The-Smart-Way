@@ -1,0 +1,21 @@
+# Don't put `urgent' in the title. (/en/docs/when-questions/never-write-urgent)
+
+
+
+This is your problem, not ours. Declaring it `urgent' will most likely not work: most hackers will simply delete questions that are a rude and selfish attempt to get instant attention. Worse, the word `urgent' (or any other attempted attention-grabbing headline) is usually filtered out by spam filters -- the people you want to see your question may never see it.
+
+## Your Emergency Is Not the Community's Emergency [#your-emergency-is-not-the-communitys-emergency]
+
+For you, a system that won't start, a job that's about to close, or a client that's waiting can be very urgent. But it doesn't automatically create an obligation for the unfamiliar respondent. Writing `urgent` in the title usually only sends the message that you want others to put your time pressures ahead of their own.
+
+## The few exceptions should also be treated with caution [#the-few-exceptions-should-also-be-treated-with-caution]
+
+The half exception to this is that if you're in something that's very high profile and will get hackers excited, it might be worthwhile to do so. In that case, if you're under time pressure and are polite enough to mention it, people might be interested in answering a little faster.
+
+Of course, it's risky because the hackers are mostly excited about something different than you are. It's fine to post a headline like this from NASA's International Space Station, for example, but it's certainly not fine to post it as a self-serving act of charity or for political reasons. In fact, posting something like `Urgent: Help me save this furry baby seal! ` is sure to get you ignored by hackers or annoy them, even if they think the furry baby seal is important.
+
+## A better way to write [#a-better-way-to-write]
+
+If you do have a time constraint, you can state it plainly in the body of the text, rather than grabbing attention with a headline. For example: `This issue is affecting tonight's release; if no one can respond in time, I'll go ahead and roll back to the previous version. ` This is much more mature than `Urgent!!!! ` It's more mature and lets others know you have a backup plan.
+
+If you find this point unbelievable, it's best to read the rest of this guide a few more times until you figure it out before posting.

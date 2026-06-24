@@ -1,0 +1,30 @@
+# Remove meaningless questions (/en/docs/when-questions/remove-questional-sentence)
+
+
+
+Avoid ending a question with meaningless words, such as `Can anyone help me? ` or `Is there an answer to this? `.
+
+## Why these types of sentences have no value [#why-these-types-of-sentences-have-no-value]
+
+First of all: if you don't have a good description of the problem, it's even more of a red herring to ask that.
+
+Second: Since it's a red herring to ask, hackers will get tired of you -- and will usually show their disdain with logically correct, but meaningless, answers such as `Yes, there are people who can help you` or `No, there's no answer`.
+
+These types of sentences don't provide any diagnostic information or state what you want someone to do. They are simply asking someone to commit to whether or not they will help you first.
+
+## Switching to specific requests [#switching-to-specific-requests]
+
+Instead of writing `Can anyone help me? `, rather than write:
+
+* `Which layer should I prioritize for inspection?`
+* `Does this error indicate an incompatible dependency version?`
+* `Is this minimal example sufficient to illustrate the point?`
+* `Are there any common configuration items I'm missing?`
+
+These questions allow the respondent to move directly to technical judgment.
+
+## Avoiding yes/no questions [#avoiding-yesno-questions]
+
+In general, avoid `yes or no`, `right or wrong`, `yes or no` type of questions unless you want a [yes or no type of answer](https://strcat.de/questions-with-yes-or-no-answers.html).
+
+Don't write questions in a form that can only be answered "yes" or "no" if what you really need is an explanation, direction or diagnostic advice.

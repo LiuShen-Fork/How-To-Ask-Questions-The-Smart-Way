@@ -1,0 +1,36 @@
+# How to Avoid Playing the Loser (/en/docs/how-to-avoid-being-loser)
+
+
+
+In the forums of the hacker community, there may be a few times when you screw up, even if you have tried to follow this guide. You may be pointed out in public where you're doing something wrong, and the tone may not be gentle.
+
+## Stay Steady When You Are Corrected [#stay-steady-when-you-are-corrected]
+
+The worst reaction after something like this happens is to wail about what happened to you, claim assault, demand an apology, scream at the top of your lungs, hold your breath, threaten legal action, or run to the other person's employer and complain. Instead, you should just get over it.
+
+This is normal. In fact, it is beneficial and reasonable for the community. Open technology communities need open standards, and standards don't maintain themselves, they are maintained by active and **public** enforcement by participants.
+
+Don't insist that all criticism should be delivered via private email. It doesn't usually work that way. When someone points out that you've misrepresented something, under-described a problem, or made an untenable assumption, it doesn't help to generalize this type of feedback as a personal attack.
+
+## Distinguish between "uncomfortable" and "worthless." [#distinguish-between-uncomfortable-and-worthless]
+
+There are also forums that are misguided by excessive protocol requirements, prohibiting participants from pointing out problems in other people's posts and claiming `If you don't want to help the users, shut up.' ` The result is often that thoughtful participants leave in droves, leaving behind pointless chatter and low-quality discussions.'
+
+Hyperbolically speaking, do you want this kind of superficial "friendliness" or a discussion that actually solves a problem? It's usually a choice between the two.
+
+Remember: when a hacker says you screwed up and tells you not to do it again, he's usually concerned about **you** and **his community**. It's much less work for him to ignore you completely and filter you out of his life instead. If you can't do thank you, at least act with dignity and don't take every harsh feedback as proof that someone else has to take care of you.
+
+## What to do in a real attack [#what-to-do-in-a-real-attack]
+
+Sometimes, even if you didn't screw up, or only screwed up in the other person's imagination, someone will attack you personally for no reason. In this case, complaining instead **really** might screw up the problem.
+
+These people who come looking for trouble are either clueless but think they're experts, or they're testing you to see if you'll actually lose control. Other readers usually ignore them or deal with them in their own way. These people are making trouble for themselves and don't necessarily need you to deal with them personally.
+
+## Don't get involved in a war of words [#dont-get-involved-in-a-war-of-words]
+
+It's best to ignore most spats. Of course, before ignoring, you need to make sure of two things:
+
+1. It really is just lip service rather than pointing out your real problem.
+2. It doesn't hide the real answers or key clues behind harsh expressions.
+
+If the confirmation is just a provocation, let it go. The more you can put your focus back on facts, evidence, reproduction steps and solutions, the less you look like a loser.

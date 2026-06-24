@@ -1,0 +1,31 @@
+# When asking questions about the code (/en/docs/when-questions/when-ask-code)
+
+
+
+Don't ask others to help you debug faulty code without a hint as to where they should start. Posting hundreds of lines of code and saying, `It doesn't work` will get you completely ignored. Posting a few dozen lines of code and saying, `After line 7, I was expecting it to show <x>, but what actually appeared was <y>` is more likely to get you a response.
+
+## point of entry and exit [#point-of-entry-and-exit]
+
+When someone looks at your code, they need to know where to start looking, what the expected behavior is, and what the actual behavior is. Without that information, the more code you have, the more it looks like you're passing off the troubleshooting as a whole to someone else.
+
+A better code issue usually contains:
+
+* Minimum runnable code fragment.
+* Run mode or compile command.
+* Expected and actual outputs.
+* The location where the error occurred.
+* Modifications you've already tried.
+
+## Provide minimum replication [#provide-minimum-replication]
+
+The most effective way to describe a program problem is to provide a minimalist bug-demonstrating test case. What is a minimal test case? It's a microcosm of the problem; a small fragment of the program that **just** shows the program's abnormal behavior without other distractions. How do you make the leanest test case? If you know which line or piece of code causes abnormal behavior, copy it and add enough code to reproduce the situation (e.g., enough so that the piece of code can be compiled/directly translated/processed by the application). If you can't reduce the problem to a specific block, make a copy of the code and remove the section that doesn't affect the behavior that creates the problem. In short, the smaller the test case, the better (check out the section \[Words are not more important but more precise]\(#Words are not more important but more precise)).
+
+## Show effort even if it doesn't shrink [#show-effort-even-if-it-doesnt-shrink]
+
+In general, it's not too easy to get a fairly concise paragraph of test cases, but it's a good habit to always try to do this first. This approach can help you understand how to solve the problem on your own -- and even if your attempts are unsuccessful, hackers will see that you've put effort into trying to get an answer, which can make them more willing to work with you.
+
+## If you want code review [#if-you-want-code-review]
+
+If you just want someone to help review the code, say so at the beginning of the letter, and be sure to mention which parts you think need particular attention and why.
+
+"`Please take a look for me` is too broad. A better statement would be: `I want to make sure that this error handling swallows exceptions`, or `Whether this use of locks might lead to deadlocks`. Clarify the goal of the review so that others can effectively input.
